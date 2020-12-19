@@ -3,7 +3,7 @@
       code
       connect code to layout  (create a view be inflating a layout)
 
-2)  add fragments to main
+2)  add fragments to activity
       easy enough
 
 3)  wire everything up
