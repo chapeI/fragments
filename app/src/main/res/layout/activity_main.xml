@@ -4,4 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.fragmentpractice_gitandcommented.FragmentA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_a" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.fragmentpractice_gitandcommented.FragmentB"
+        android:layout_width="184dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment1"
+        app:layout_constraintVertical_bias="0.505"
+        tools:layout="@layout/fragment_b" />
+</androidx.constraintlayout.widget.ConstraintLayout>
