@@ -27,4 +27,8 @@ public class FragmentB extends Fragment {
 
         return view;
     }
+
+    void setMyText(CharSequence c) {
+        text.setText(c);
+    }
 }
